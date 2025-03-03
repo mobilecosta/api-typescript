@@ -2,9 +2,9 @@
 import { DocumentBuilder } from '@nestjs/swagger';
 
 export const config = new DocumentBuilder()
-  .setTitle('Blog Posts API')
+  .setTitle('API Base Autenticação')
   .setDescription(
-    'API documentation for managing blog posts, users, and authentication',
+    'Documentação do gerenciamento de autenticação e usuários',
   )
   .setVersion('1.0')
   .addBearerAuth()
