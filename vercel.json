@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/main.ts": {
+      "memory": 1024
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "src/main.ts"
+    }
+  ]
+}
